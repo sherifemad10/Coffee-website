@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee</title>
+    <link rel="stylesheet" href="acess/Style.css">
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- nav bar -->
+    <header>
+        <a href="#" class="logo">
+            <img src="/img/logo.png">
+        </a>
+        <!-- manu icons -->
+        <i class='bx bx-menu' id="menu-icons"></i>
+        <!-- link -->
+        <ul class="navbar">
+            <li><a href="#Home">HOME</a></li>
+            <li><a href="#About">ABOUT US</a></li>
+            <li><a href="#Product">PRODUCT</a></li>
+            <li><a href="#Customers">CUSTOMERS</a></li>
+            <li><a href="#Contact">CONTACT US</a></li>
+        </ul>
+        <!-- header icons -->
+        <div class="header-icons">
+            <i class='bx bx-cart' ></i>
+            <i class='bx bx-search-alt-2' id="search-icon"  ></i>
+
+        </div>
+        <!-- search box -->
+        <div class="search-box">
+            <input type="search" name="" id="" placeholder="Search Here...">
+        </div>
+    </header>
+    <section class="home" id="Home">
+        <div class="home-text">
+            <h1>Start Your Day <br> With Coffee</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos illo fuga minus quo fugit alias id possimus incidunt perspiciatis ipsum laborum hic officiis ab necessitatibus, aperiam nihil eaque et molestias!</p>
+            <!-- btn -->
+            <a href="#">
+                <button class="cartBtn">
+                    <svg class="cart" fill="white" viewBox="0 0 576 512" height="1em" xmlns="http://www.w3.org/2000/svg"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                    ADD TO CART
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512" class="product"><path d="M211.8 0c7.8 0 14.3 5.7 16.7 13.2C240.8 51.9 277.1 80 320 80s79.2-28.1 91.5-66.8C413.9 5.7 420.4 0 428.2 0h12.6c22.5 0 44.2 7.9 61.5 22.3L628.5 127.4c6.6 5.5 10.7 13.5 11.4 22.1s-2.1 17.1-7.8 23.6l-56 64c-11.4 13.1-31.2 14.6-44.6 3.5L480 197.7V448c0 35.3-28.7 64-64 64H224c-35.3 0-64-28.7-64-64V197.7l-51.5 42.9c-13.3 11.1-33.1 9.6-44.6-3.5l-56-64c-5.7-6.5-8.5-15-7.8-23.6s4.8-16.6 11.4-22.1L137.7 22.3C155 7.9 176.7 0 199.2 0h12.6z"></path></svg>
+                  </button>
+            </a>
+        </div>
+        <div class="home-image"><img src="/img/main.png" alt=""/></div>
+    </section>
+<!-- About -->
+<section class="about" id="About">
+    <div class="about-img">
+        <img src="/img/about.jpg">
+    </div>
+    <div class="about-text">
+        <h2>Our History</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At deserunt illum porro nesciunt temporibus beatae aspernatur quis maxime molestiae autem iure facilis, omnis error sapiente aliquid veritatis quos delectus quisquam.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum recusandae vero aspernatur aut ab, officiis dicta nemo nisi aperiam in! Corrupti ducimus tempore dolore nihil ratione sunt pariatur voluptate vero!</p>
+   <!-- btn -->
+   <div class="scene">
+    <a href="#"> <div class="cube">
+      <span class="side top">More</span>
+      <span class="side front">Read</span>
+    </div></a>
+  </div>
+   
+    </div>
+</section>
+<!-- Product -->
+<section class="Product" id="Product">
+
+    <div class="heading">
+        <h2> Our popular Product</h2>
+    </div>
+
+    <!-- contanier -->
+    <div class="product-contanier">
+        <div class="box">
+            <img src="/img/p1.png">
+            <h3>AMERICANO PURE GRADES</h3>
+            <div class="content">
+                <span>$25</span>
+                <!-- btn -->
+                <div data-tooltip="Price:-$20" class="button">
+                    <div class="button-wrapper">
+                      <div class="text">Add To Cart</div>
+                        <span class="icon">
+                          <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+                    </svg>
+                        </span>
+                      </div>
+                    </div>
+                    
+                    
+            </div>
+        </div>
+        <!-- card 2 -->
+        <div class="box">
+            <img src="/img/p2.png">
+            <h3>TESTY COFFEE STIMY</h3>
+            <div class="content">
+                <span>$25</span>
+                <!-- btn -->
+                <div data-tooltip="Price:-$20" class="button">
+                    <div class="button-wrapper">
+                      <div class="text">Add To Cart</div>
+                        <span class="icon">
+                          <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+                    </svg>
+                        </span>
+                      </div>
+                    </div>
+            </div>
+        </div>
+        <!-- card 3 -->
+        <div class="box">
+            <img src="/img/p3.png">
+            <h3>INDIAN ROASTING PACK</h3>
+            <div class="content">
+                <span>$25</span>
+                <!-- btn -->
+                <div data-tooltip="Price:-$20" class="button">
+                    <div class="button-wrapper">
+                      <div class="text">Add To Cart</div>
+                        <span class="icon">
+                          <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+                    </svg>
+                        </span>
+                      </div>
+                    </div>
+            </div>
+        </div>
+        <!-- card 4 -->
+        <div class="box">
+            <img src="/img/p4.png">
+            <h3>AMERICANO PURE GRADES</h3>
+            <div class="content">
+                <span>$25</span>
+                <!-- btn -->
+                <div data-tooltip="Price:-$20" class="button">
+                    <div class="button-wrapper">
+                      <div class="text">Add To Cart</div>
+                        <span class="icon">
+                          <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+                    </svg>
+                        </span>
+                      </div>
+                    </div>
+            </div>
+        </div>
+        <!-- card 5 -->
+        <div class="box">
+            <img src="/img/p5.png">
+            <h3>BANGLADESHI ORGANIC GRADES</h3>
+            <div class="content">
+                <span>$25</span>
+                <!-- btn -->
+                <div data-tooltip="Price:-$20" class="button">
+                    <div class="button-wrapper">
+                      <div class="text">Add To Cart</div>
+                        <span class="icon">
+                          <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+                    </svg>
+                        </span>
+                      </div>
+                    </div>
+            </div>
+        </div>
+        <!-- card 6 -->
+        <div class="box">
+            <img src="/img/p6.png">
+            <h3>ARVICA COFFEE PACK</h3>
+            <div class="content">
+                <span>$25</span>
+                <!-- btn -->
+                <div data-tooltip="Price:-$20" class="button">
+                    <div class="button-wrapper">
+                      <div class="text">Add To Cart</div>
+                        <span class="icon">
+                          <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+                    </svg>
+                        </span>
+                      </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-- btn -->
+    <div class="all-prod">
+<button>
+    All products
+</button>
+    </div>
+</section>
+<!-- What Our Custormers Say -->
+<section class="Customers" id="Customers">
+  <div class="heading">
+    <h2>Our Customer's</h2>
+  </div>
+
+  <div class="customers-containar">
+    <!-- card 1 -->
+    <div class="box">
+      <div class="stars">
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star-half' ></i>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quam quidem culpa dolores voluptas ut ipsa placeat consequatur commodi ex rerum, veritatis ipsum ipsam dolorum temporibus. Corrupti facilis voluptatibus quaerat?</p>
+      <h2>Yasin Arafat</h2>
+      <img src="/img/rev1.jpg">
+    </div>
+      
+<!-- card 2 -->
+<div class="box">
+  <div class="stars">
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star-half' ></i>
+  </div>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quam quidem culpa dolores voluptas ut ipsa placeat consequatur commodi ex rerum, veritatis ipsum ipsam dolorum temporibus. Corrupti facilis voluptatibus quaerat?</p>
+  <h2>Jane Doe</h2>
+  <img src="/img/rev2.jpg">
+</div>
+<!-- card 3 -->
+<div class="box">
+  <div class="stars">
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star-half' ></i>
+  </div>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quam quidem culpa dolores voluptas ut ipsa placeat consequatur commodi ex rerum, veritatis ipsum ipsam dolorum temporibus. Corrupti facilis voluptatibus quaerat?</p>
+  <h2>Elissa Mark</h2>
+  <img src="/img/rev3.jpg">
+</div>
+  </div>
+</section>
+<!-- footer -->
+<footer class="footer">
+  <div class="footer-box">
+    <h2>Coffee Shop</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+       Expedita molestias voluptate id beatae <br>
+       tempore numquam  modi maxime repellendus <br>
+       rem aspernatur possimus sit unde  pariatur <br>
+        itaque iusto, perferendis rerum sint?</p>
+  
+  <div class="social">
+      <div class="card">
+        <span>Social</span>
+        <a class="social-link" href="#">
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 461.001 461.001" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path style="fill:#F61C0D;" d="M365.257,67.393H95.744C42.866,67.393,0,110.259,0,163.137v134.728 c0,52.878,42.866,95.744,95.744,95.744h269.513c52.878,0,95.744-42.866,95.744-95.744V163.137 C461.001,110.259,418.135,67.393,365.257,67.393z M300.506,237.056l-126.06,60.123c-3.359,1.602-7.239-0.847-7.239-4.568V168.607 c0-3.774,3.982-6.22,7.348-4.514l126.06,63.881C304.363,229.873,304.298,235.248,300.506,237.056z"></path> </g> </g></svg>
+        </a>
+        <a class="social-link" href="#">
+          <svg fill="#000000" viewBox="0 0 512 512" id="icons" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M412.19,118.66a109.27,109.27,0,0,1-9.45-5.5,132.87,132.87,0,0,1-24.27-20.62c-18.1-20.71-24.86-41.72-27.35-56.43h.1C349.14,23.9,350,16,350.13,16H267.69V334.78c0,4.28,0,8.51-.18,12.69,0,.52-.05,1-.08,1.56,0,.23,0,.47-.05.71,0,.06,0,.12,0,.18a70,70,0,0,1-35.22,55.56,68.8,68.8,0,0,1-34.11,9c-38.41,0-69.54-31.32-69.54-70s31.13-70,69.54-70a68.9,68.9,0,0,1,21.41,3.39l.1-83.94a153.14,153.14,0,0,0-118,34.52,161.79,161.79,0,0,0-35.3,43.53c-3.48,6-16.61,30.11-18.2,69.24-1,22.21,5.67,45.22,8.85,54.73v.2c2,5.6,9.75,24.71,22.38,40.82A167.53,167.53,0,0,0,115,470.66v-.2l.2.2C155.11,497.78,199.36,496,199.36,496c7.66-.31,33.32,0,62.46-13.81,32.32-15.31,50.72-38.12,50.72-38.12a158.46,158.46,0,0,0,27.64-45.93c7.46-19.61,9.95-43.13,9.95-52.53V176.49c1,.6,14.32,9.41,14.32,9.41s19.19,12.3,49.13,20.31c21.48,5.7,50.42,6.9,50.42,6.9V131.27C453.86,132.37,433.27,129.17,412.19,118.66Z"></path></g></svg>
+        </a>
+        <a class="social-link" href="#">
+          <svg viewBox="0 -28.5 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M216.856339,16.5966031 C200.285002,8.84328665 182.566144,3.2084988 164.041564,0 C161.766523,4.11318106 159.108624,9.64549908 157.276099,14.0464379 C137.583995,11.0849896 118.072967,11.0849896 98.7430163,14.0464379 C96.9108417,9.64549908 94.1925838,4.11318106 91.8971895,0 C73.3526068,3.2084988 55.6133949,8.86399117 39.0420583,16.6376612 C5.61752293,67.146514 -3.4433191,116.400813 1.08711069,164.955721 C23.2560196,181.510915 44.7403634,191.567697 65.8621325,198.148576 C71.0772151,190.971126 75.7283628,183.341335 79.7352139,175.300261 C72.104019,172.400575 64.7949724,168.822202 57.8887866,164.667963 C59.7209612,163.310589 61.5131304,161.891452 63.2445898,160.431257 C105.36741,180.133187 151.134928,180.133187 192.754523,160.431257 C194.506336,161.891452 196.298154,163.310589 198.110326,164.667963 C191.183787,168.842556 183.854737,172.420929 176.223542,175.320965 C180.230393,183.341335 184.861538,190.991831 190.096624,198.16893 C211.238746,191.588051 232.743023,181.531619 254.911949,164.955721 C260.227747,108.668201 245.831087,59.8662432 216.856339,16.5966031 Z M85.4738752,135.09489 C72.8290281,135.09489 62.4592217,123.290155 62.4592217,108.914901 C62.4592217,94.5396472 72.607595,82.7145587 85.4738752,82.7145587 C98.3405064,82.7145587 108.709962,94.5189427 108.488529,108.914901 C108.508531,123.290155 98.3405064,135.09489 85.4738752,135.09489 Z M170.525237,135.09489 C157.88039,135.09489 147.510584,123.290155 147.510584,108.914901 C147.510584,94.5396472 157.658606,82.7145587 170.525237,82.7145587 C183.391518,82.7145587 193.761324,94.5189427 193.539891,108.914901 C193.539891,123.290155 183.391518,135.09489 170.525237,135.09489 Z" fill="#5865F2" fill-rule="nonzero"> </path> </g> </g></svg>
+        </a>
+      
+      </div>
+  </div>
+</div>
+  <div class="footer-box">
+    <h3>Support </h3>
+    <i><a href="">products</a></i>
+    <i><a href="">Help & Support</a></i>
+    <i><a href="">Return policy</a></i>
+    <i><a href="">Terms of Use</a></i>
+    <i><a href="">products</a></i>
+  </div>
+  <div class="footer-box">
+    <h3>view Guides </h3>
+    <i><a href="">Features</a></i>
+    <i><a href="">Careers</a></i>
+    <i><a href="">Blog Posts</a></i>
+    <i><a href="">Our Branches</a></i>
+  </div>
+  <div class="footer-box1">
+    <h3>Contact</h3>
+    <div class="contact">
+      <span><i class='bx bx-map' ></i>250 New York City, USA 1001</span>
+      <span><i class='bx bx-phone' ></i>+1 444 744 8444</span>
+      <span><i class='bx bx-envelope' ></i>coffee@shop.com</span>
+
+    </div>
+  </div>
+  
+
+</footer>
+
+  <div class="copyright"> 2023 All rights reserved to  <i>Black Block</i>. Designed by <a href="#">Sherif Emad</a></div>
+
+    <script src="acess/main.js"></script>
+</body>
+</html>
